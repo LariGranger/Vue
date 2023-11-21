@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Introdução ao Vue</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="nav-bar">
+        <div class="cart">
+          <span class="title-cart">MEU CARRINHO ({{carrinho}})</span>
+        </div>
+      </div>
+      <product-display :premium="premium"></product-display>
+      </div>
+      <!-- Import App -->
+    </div>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
